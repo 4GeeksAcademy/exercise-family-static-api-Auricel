@@ -82,7 +82,7 @@ def delete_family_member(member_id):
     
     if not eliminar_familiar:
         return jsonify({"msg": "familiar no encontrado"}), 400
-    return jsonify({"done": "familiar borrado"}), 200
+    return jsonify({"done": True}), 200
 
 
 
